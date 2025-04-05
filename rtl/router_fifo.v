@@ -9,6 +9,7 @@ reg [4:0]rd_pointer,wr_pointer;
 output reg [width-2:0] data_out;
 reg [6:0]count;
 
+// initialising inputs and outputs
 output full,empty;
 integer i;
 
